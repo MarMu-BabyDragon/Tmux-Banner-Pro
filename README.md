@@ -1,3 +1,4 @@
+
 # Installation
 
 pkg update -y
@@ -16,5 +17,7 @@ bash requirement.sh
 
 bash my-banner.sh
 
+   (or)
+bash marmu.sh
 
-               🎭🎭 Tool Modified By MarMu
+          🎭🎭 Creating By MarMu

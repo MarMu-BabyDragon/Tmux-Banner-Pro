@@ -7,7 +7,7 @@ pkg upgrade -y
 
 pkg install git -y
 
-git clone https://github.com/MarrMu-Ko HTeT/MarMu
+git clone https://github.com/MarrMu-KoHTeT/MarMu
 
 cd MarMu
 

@@ -27,11 +27,11 @@ cd MarMu
 echo
 clear
 toilet -F gay We | lolcat
-toilet -F gay Love | lolcat
-toilet -F gay MYANMAR | lolcat
+toilet -F gay Are | lolcat
+toilet -f smslant -F gay BabyDragon | lolcat
 
 echo -e ""
-echo -e $YL " Enter Your Name : "
+echo -e $YL " Enter Your Banner Name : "
 read name
 
 echo -e "clear" >clear.txt
@@ -46,7 +46,7 @@ touch bash.bashrc
 cp bash.bashrc /data/data/com.termux/files/usr/etc/
 echo -e $RD"Enter Tool Password"
 read pass
-if [ $pass -eq 1234 ]
+if [ $pass -eq 6969 ]
 then
         cat "clear.txt" >>$PREFIX/etc/bash.bashrc
 
@@ -90,16 +90,16 @@ cat bash.bashrc >>$PREFIX/etc/zshrc
 
 rm -rf termux-style
 
-if [ $pass -eq 1234 ]
+if [ $pass -eq 6969 ]
 then
         figlet Done !| lolcat
         echo -e $GR "Now it's OK..."
         echo -e $GR "please reboot the termux application or start a new session"
-else
+elseq
         echo -e $PP "Unable to setup because of the wrong credentials"
 fi
 
-echo -e $GR "Theme Myanmar v 1.1 by MarMu"
+echo -e $GR "Termux Myanmar Theme v 1.2 by MarMu"
 
 cd $HOME
 sleep 2

@@ -19,4 +19,6 @@ bash my-banner.sh
    (or)
 bash marmu.sh
 
+Password >> 6969
+
           🎭🎭 Creation By MarMu
